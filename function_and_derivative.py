@@ -29,8 +29,8 @@ i=0
 imax=len(x_list)-1
 while i<imax:
 
-     diffx=x_list[i]-x_list[i+1]
-     diffy=y[i]-y[i+1]
+     diffx=x_list[i+1]-x_list[i]
+     diffy=y[i+1]-y[i]
      dy.append(diffy/diffx)
      x_derivative.append(x_list[i])
      i=i+1
